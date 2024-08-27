@@ -1,16 +1,35 @@
-# newapp
+Objective:
+Develop a Flutter application to create, administer, and analyze questionnaires. The
+app should allow users to design questionnaires with various question types, collect
+user responses, and generate comprehensive reports.
 
-A new Flutter project.
+Requirements:
+ Core Functionality:
 
-## Getting Started
+o Create and manage questionnaires with multiple questions and sub-
+questions.
 
-This project is a starting point for a Flutter application.
+o Support question types: single-choice, multiple-choice, and text input.
+o Collect user responses and store them in a database.
+o Generate detailed reports based on collected data.
+o Implement a user-friendly interface for questionnaire creation,
+administration, and report viewing.
 
-A few resources to get you started if this is your first Flutter project:
+ Database Integration:
+o Choose a suitable database (Firebase, MongoDB, or similar) to store
+questionnaire data, user responses, and reports.
+o Ensure efficient data retrieval and updates.
+ UI/UX:
+o Design a clean and intuitive user interface for both questionnaire
+creation and user interaction.
+o Optimize the app for different screen sizes and devices.
+ Report Generation:
+o Generate comprehensive reports in PDF format, including visualizations
+and data analysis.
+o Allow users to share and export reports.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Page 2 of 6
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Additional Requirements
+ Use MVC architecture for this project.
+ The project should support Flutter SDK 3.19.3.
